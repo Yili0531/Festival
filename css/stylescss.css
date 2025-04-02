@@ -299,12 +299,14 @@ footer .partenaire ul li{
     position: absolute; }
 .article .infoBlog {
   font-size: 1rem; }
-.news img {
+
+.actu-img {
     display: block;
     max-width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
 }
+
 
 /*# sourceMappingURL=stylescss.css.map */
