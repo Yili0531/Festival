@@ -61,25 +61,26 @@
 		<!--Modal cookie-->
 	<!--01.accueil-->
 <section class="container-fluid welcome py-5" style="background: url('image/cinema/hero-bg.jpg') center center / cover no-repeat; color: white;">
-  <div class="container" style="background-color: rgba(0,0,0,0.6); padding: 40px; border-radius: 10px;">
+  <div class="container" style="background-color: rgba(0,0,0,0.5); padding: 50px; border-radius: 12px;">
     <div class="row align-items-center">
       <aside class="col-lg-6 mb-4 mb-lg-0">
         <img src="image/cinema/07--cinema.jpg" class="img-fluid rounded shadow-lg" alt="Films en plein air">
       </aside>
-      <article class="col-lg-6 text-center text-lg-left">
-        <h1 class="display-4 font-weight-bold mb-3" style="color: #ffcc70; text-shadow: 2px 2px 4px rgba(0,0,0,0.6);">Festival des Films de Plein Air</h1>
+      <article class="col-lg-6 text-center text-lg-left" style="background-color: rgba(255, 255, 255, 0.1); padding: 30px; border-radius: 10px;">
+        <h1 class="display-4 font-weight-bold mb-3" style="color: #ffe08a; text-shadow: 2px 2px 5px rgba(0,0,0,0.7);">Festival des Films de Plein Air</h1>
         <div class="date d-flex flex-column align-items-center align-items-lg-start mb-3">
-          <span class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Août</span>
-          <span class="display-3 font-weight-bold textshadow" style="color: #f8f9fa; text-shadow: 2px 4px 6px rgba(0,0,0,0.7);">2025</span>
-          <span class="text-uppercase">17<sup>e</sup> édition</span>
+          <span class="text-uppercase font-weight-bold text-light" style="letter-spacing: 1px;">Août</span>
+          <span class="display-3 font-weight-bold text-white textshadow" style="text-shadow: 2px 4px 8px rgba(0,0,0,0.7);">2025</span>
+          <span class="text-uppercase text-light">17<sup>e</sup> édition</span>
         </div>
-        <p class="lead mb-4">Un voyage cinématographique sous les étoiles</p>
-        <a href="films.html" class="btn btn-lg btn-light shadow-sm px-4 py-2 font-weight-bold" style="border-radius: 30px; transition: 0.3s;">Voir le Programme</a>
+        <p class="lead mb-4 text-white">Un voyage cinématographique sous les étoiles</p>
+        <a href="films.html" class="btn btn-lg btn-outline-light shadow px-4 py-2 font-weight-bold" style="border-radius: 30px; transition: 0.3s;">Voir le Programme</a>
       </article>
     </div>
   </div>
 </section>
 <!--end accueil-->
+
 
 <!--02.à propos-->
 <section class="container-fluid about py-5" style="background-color: #f9f9f9;">
@@ -192,122 +193,122 @@
 
 
 		<!--05.réservation-->
-		<section class="container-fluid booking">
-			<div class="container">
-				<div class="row">
-					<aside class="col-lg-6">
-						<!--<img src="images/05-resaAside.jpg"class="img-fluid" alt="cinema clap">-->
-					</aside>
-					<article class="col-lg-6">
-						<h2 id="booking">Réservation en ligne</h2>
-						<form class="needs-validation" novalidate id="bookingValidation">				
-							<div class="form-group">
-								<label for="nom">Prénom Nom</label>
-								<input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
-								<div class="invalid-tooltip">
-									Merci de renseigner vos prénom et nom.
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="mail">E-mail</label>
-								<input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
-								<div class="invalid-tooltip">
-									Merci de renseigner votre e-mail.
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="phone">Téléphone</label>
-								<input class="form-control" required type="tel" name="phone" id="phone" placeholder="0611223344" />
-								<div class="invalid-tooltip">
-									Merci de renseigner votre numéro de téléphone.
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="place">Nb. places</label>
-								<input class="form-control" type="number" name="place" id="place" min="1" value="1">
-							</div>
-							<div class="form-group">
-								<label for="seance">Séances</label>
-								<select class="form-control" required name="seance" id="seance">
-										<option value="" selected disabled>Ma Séance</option>
-									<optgroup label="Date 1">
-										<option value="Heure 1">Heure - Film</option>
-										<option value="Heure 2">Heure - Film</option>
-										<option value="Heure 3">Heure - Film</option>
-									</optgroup>
-									<optgroup label="Date 2">
-										<option value="Heure 1">Heure - Film</option>
-										<option value="Heure 2">Heure - Film</option>
-										<option value="Heure 3">Heure - Film</option>
-									</optgroup>
-									<optgroup label="Date 3">
-										<option value="Heure 1">Heure - Film</option>
-										<option value="Heure 2">Heure - Film</option>
-										<option value="Heure 3">Heure - Film</option>
-									</optgroup>
-									<optgroup label="Date 4">
-										<option value="Heure 1">Heure - Film</option>
-										<option value="Heure 2">Heure - Film</option>
-										<option value="Heure 3">Heure - Film</option>
-									</optgroup>
-								</select>
-								<div class="invalid-tooltip">
-									Merci de choisir votre séance.
-								</div>
-							</div>
-							<button type="submit" class="btn btn-custom">Je réserve !</button>
-						</form>
-					</article>
-				</div>
-			</div>
-		</section>
-		<!-- end réservation-->
+<section class="container-fluid booking">
+  <div class="container">
+    <div class="row">
+      <aside class="col-lg-6">
+        <img src="image/cinema/12-Le Dossier Maldoror.jpg" class="img-fluid rounded shadow-sm" alt="cinema clap">
+      </aside>
+      <article class="col-lg-6">
+        <h2 id="booking">Réservation en ligne</h2>
+        <form class="needs-validation" novalidate id="bookingValidation">        
+          <div class="form-group">
+            <label for="nom">Prénom Nom</label>
+            <input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+            <div class="invalid-tooltip">
+              Merci de renseigner vos prénom et nom.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mail">E-mail</label>
+            <input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+            <div class="invalid-tooltip">
+              Merci de renseigner votre e-mail.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Téléphone</label>
+            <input class="form-control" required type="tel" name="phone" id="phone" placeholder="0611223344" />
+            <div class="invalid-tooltip">
+              Merci de renseigner votre numéro de téléphone.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="place">Nb. places</label>
+            <input class="form-control" type="number" name="place" id="place" min="1" value="1">
+          </div>
+          <div class="form-group">
+            <label for="seance">Séances</label>
+            <select class="form-control" required name="seance" id="seance">
+              <option value="" selected disabled>Ma Séance</option>
+              <optgroup label="Date 1">
+                <option value="Heure 1">Heure - Film</option>
+                <option value="Heure 2">Heure - Film</option>
+                <option value="Heure 3">Heure - Film</option>
+              </optgroup>
+              <optgroup label="Date 2">
+                <option value="Heure 1">Heure - Film</option>
+                <option value="Heure 2">Heure - Film</option>
+                <option value="Heure 3">Heure - Film</option>
+              </optgroup>
+              <optgroup label="Date 3">
+                <option value="Heure 1">Heure - Film</option>
+                <option value="Heure 2">Heure - Film</option>
+                <option value="Heure 3">Heure - Film</option>
+              </optgroup>
+              <optgroup label="Date 4">
+                <option value="Heure 1">Heure - Film</option>
+                <option value="Heure 2">Heure - Film</option>
+                <option value="Heure 3">Heure - Film</option>
+              </optgroup>
+            </select>
+            <div class="invalid-tooltip">
+              Merci de choisir votre séance.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-custom">Je réserve !</button>
+        </form>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- end réservation-->
 
-		<!--06.contact-->
-		<section class="container-fluid contact">
-			<div class="container">
-				<div class="row">
-					<aside class="col-lg-6">
-						<iframe src="images/Carte.jpg" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</aside>
-					<article class="col-lg-6">
-						<h2 id="contact">Contactez-nous !</h2>
-						<form class="needs-validation" novalidate id="contactValidation">
-							<div class="form-group">
-								<label for="nom">Prénom Nom</label>
-								<input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
-								<div class="invalid-tooltip">
-									Merci de renseigner vos prénom et nom.
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="mail">E-mail</label>
-								<input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
-								<div class="invalid-tooltip">
-									Merci de renseigner votre e-mail.
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="sujet">Sujet</label>
-								<input class="form-control" required type="text" name="sujet" id="sujet" placeholder="Sujet" />
-								<div class="invalid-tooltip">
-									Merci de renseigner le sujet.
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="message">Votre message</label>
-								<textarea class="form-control" required name="message" id="message" rows="5" cols="50" placeholder="Composez votre texte !"></textarea>
-								<div class="invalid-tooltip">
-									Merci de rédiger votre message.
-								</div>
-							</div>
-							<button type="submit" class="btn btn-custom">Envoyer</button>
-						</form>
-					</article>
-				</div>
-			</div>
-		</section>
-		<!--end contact-->
+	<!--06.contact-->
+<section class="container-fluid contact">
+  <div class="container">
+    <div class="row">
+      <aside class="col-lg-6 mb-4 mb-lg-0">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.881692215979!2d2.305998015674293!3d48.88114297928985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc9b5580cc1%3A0x8599d9792ef48725!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1616625639817!5m2!1sfr!2sfr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </aside>
+      <article class="col-lg-6">
+        <h2 id="contact">Contactez-nous !</h2>
+        <form class="needs-validation" novalidate id="contactValidation">
+          <div class="form-group">
+            <label for="nom">Prénom Nom</label>
+            <input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+            <div class="invalid-tooltip">
+              Merci de renseigner vos prénom et nom.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mail">E-mail</label>
+            <input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+            <div class="invalid-tooltip">
+              Merci de renseigner votre e-mail.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="sujet">Sujet</label>
+            <input class="form-control" required type="text" name="sujet" id="sujet" placeholder="Sujet" />
+            <div class="invalid-tooltip">
+              Merci de renseigner le sujet.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Votre message</label>
+            <textarea class="form-control" required name="message" id="message" rows="5" placeholder="Composez votre texte !"></textarea>
+            <div class="invalid-tooltip">
+              Merci de rédiger votre message.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-custom">Envoyer</button>
+        </form>
+      </article>
+    </div>
+  </div>
+</section>
+<!--end contact-->
 
 	<!--07.footer-->
 	<footer class="container-fluid footer">
