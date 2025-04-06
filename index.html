@@ -195,35 +195,29 @@
 
 
 <!--05.réservation-->
-<section class="container-fluid booking">
+<section class="container-fluid booking py-5" style="background-color: #1f2a36; color: white;">
   <div class="container">
-    <div class="row">
-      <aside class="col-lg-6">
-        <img src="image/cinema/12-cinema.jpg" class="img-fluid rounded shadow-sm" alt="cinema clap">
+    <div class="row align-items-center">
+      <aside class="col-lg-6 mb-4 mb-lg-0">
+        <img src="image/cinema/12-cinema.jpg" class="img-fluid rounded shadow" alt="Cinéma réservation">
       </aside>
       <article class="col-lg-6">
-        <h2 id="booking">Réservation en ligne</h2>
-        <form class="needs-validation" novalidate id="bookingValidation">        
+        <h2 id="booking" class="mb-4 text-warning">Réservation en ligne</h2>
+        <form class="needs-validation" novalidate id="bookingValidation">
           <div class="form-group">
             <label for="nom">Prénom Nom</label>
             <input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
-            <div class="invalid-tooltip">
-              Merci de renseigner vos prénom et nom.
-            </div>
+            <div class="invalid-tooltip">Merci de renseigner vos prénom et nom.</div>
           </div>
           <div class="form-group">
             <label for="mail">E-mail</label>
             <input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
-            <div class="invalid-tooltip">
-              Merci de renseigner votre e-mail.
-            </div>
+            <div class="invalid-tooltip">Merci de renseigner votre e-mail.</div>
           </div>
           <div class="form-group">
             <label for="phone">Téléphone</label>
             <input class="form-control" required type="tel" name="phone" id="phone" placeholder="0611223344" />
-            <div class="invalid-tooltip">
-              Merci de renseigner votre numéro de téléphone.
-            </div>
+            <div class="invalid-tooltip">Merci de renseigner votre numéro de téléphone.</div>
           </div>
           <div class="form-group">
             <label for="place">Nb. places</label>
@@ -254,17 +248,15 @@
                 <option value="Heure 3">Heure - Film</option>
               </optgroup>
             </select>
-            <div class="invalid-tooltip">
-              Merci de choisir votre séance.
-            </div>
+            <div class="invalid-tooltip">Merci de choisir votre séance.</div>
           </div>
-          <button type="submit" class="btn btn-custom">Je réserve !</button>
+          <button type="submit" class="btn btn-outline-warning">Je réserve !</button>
         </form>
       </article>
     </div>
   </div>
 </section>
-<!-- end réservation-->
+<!--end réservation-->
 
 	<!--06.contact-->
 <section class="container-fluid contact">
