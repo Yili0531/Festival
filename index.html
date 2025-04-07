@@ -207,63 +207,73 @@
 <section class="container-fluid booking py-5" style="background-color: #1f2a36; color: white;">
   <div class="container">
     <div class="row align-items-center">
+      
       <aside class="col-lg-6 mb-4 mb-lg-0">
         <img src="image/cinema/12-cinema.jpg" class="img-fluid rounded shadow" alt="Cinéma réservation">
       </aside>
+
       <article class="col-lg-6">
         <h2 id="booking" class="mb-4 text-warning">Réservation en ligne</h2>
+        
         <form class="needs-validation" novalidate id="bookingValidation">
           <div class="form-group">
             <label for="nom">Prénom Nom</label>
             <input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
             <div class="invalid-tooltip">Merci de renseigner vos prénom et nom.</div>
           </div>
+
           <div class="form-group">
             <label for="mail">E-mail</label>
             <input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
             <div class="invalid-tooltip">Merci de renseigner votre e-mail.</div>
           </div>
+
           <div class="form-group">
             <label for="phone">Téléphone</label>
             <input class="form-control" required type="tel" name="phone" id="phone" placeholder="0611223344" />
             <div class="invalid-tooltip">Merci de renseigner votre numéro de téléphone.</div>
           </div>
+
           <div class="form-group">
             <label for="place">Nb. places</label>
             <input class="form-control" type="number" name="place" id="place" min="1" value="1">
           </div>
-       <div class="form-group">
-  <label for="seance">Séances</label>
-  <select class="form-control" required name="seance" id="seance">
-    <option value="" selected disabled>Ma Séance</option>
-    
-    <optgroup label="5 août 2025">
-      <option value="18h00 - Baby">18h00 - Baby</option>
-      <option value="20h00 - BERLIN">20h00 - BERLIN</option>
-      <option value="22h00 - Deux sœurs">22h00 - Deux sœurs</option>
-      <option value="00h00 - Dounia le grand pays blanc">00h00 - Dounia le grand pays blanc</option>
-    </optgroup>
 
-    <optgroup label="6 août 2025">
-      <option value="18h00 - Mufasa">18h00 - Mufasa</option>
-      <option value="20h00 - Mercato">20h00 - Mercato</option>
-      <option value="22h00 - Minecraft">22h00 - Minecraft</option>
-      <option value="00h00 - Reine Mère">00h00 - Reine Mère</option>
-    </optgroup>
+          <div class="form-group">
+            <label for="seance">Séances</label>
+            <select class="form-control" required name="seance" id="seance">
+              <option value="" selected disabled>Ma Séance</option>
+              
+              <optgroup label="5 août 2025">
+                <option value="18h00 - Baby">18h00 - Baby</option>
+                <option value="20h00 - BERLIN">20h00 - BERLIN</option>
+                <option value="22h00 - Deux sœurs">22h00 - Deux sœurs</option>
+                <option value="00h00 - Dounia le grand pays blanc">00h00 - Dounia le grand pays blanc</option>
+              </optgroup>
 
-    <optgroup label="7 août 2025">
-      <option value="18h00 - Young Hearts">18h00 - Young Hearts</option>
-      <option value="20h00 - Wolf Man">20h00 - Wolf Man</option>
-      <option value="22h00 - Toutes pour une">22h00 - Toutes pour une</option>
-      <option value="00h00 - Le Dossier Maldoror">00h00 - Le Dossier Maldoror</option>
-    </optgroup>
-    
-  </select>
-  <div class="invalid-tooltip">Merci de choisir votre séance.</div>
-</div>
+              <optgroup label="6 août 2025">
+                <option value="18h00 - Mufasa">18h00 - Mufasa</option>
+                <option value="20h00 - Mercato">20h00 - Mercato</option>
+                <option value="22h00 - Minecraft">22h00 - Minecraft</option>
+                <option value="00h00 - Reine Mère">00h00 - Reine Mère</option>
+              </optgroup>
 
+              <optgroup label="7 août 2025">
+                <option value="18h00 - Young Hearts">18h00 - Young Hearts</option>
+                <option value="20h00 - Wolf Man">20h00 - Wolf Man</option>
+                <option value="22h00 - Toutes pour une">22h00 - Toutes pour une</option>
+                <option value="00h00 - Le Dossier Maldoror">00h00 - Le Dossier Maldoror</option>
+              </optgroup>
+
+            </select>
+            <div class="invalid-tooltip">Merci de choisir votre séance.</div>
+          </div>
+        </form> 
+      </article> 
+      
+    </div> 
   </div>
-</section>
+</section> 
 <!--end réservation-->
 
 	<!--06.contact-->
@@ -277,16 +287,17 @@
     <div class="row align-items-start">
       <!-- 左侧 Google 地图 -->
       <div class="col-lg-6 mb-4 mb-lg-0">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8737386207813!2d2.306380076629831!3d48.87968347133504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sen!2sfr!4v1744032118798!5m2!1sen!2sfr"  
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8737386207813!2d2.306380076629831!3d48.87968347133504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sen!2sfr!4v1744032118798!5m2!1sen!2sfr"  
           width="100%" 
           height="400" 
           frameborder="0" 
           style="border:0;" 
-          allowfullscreen="" 
+          allowfullscreen 
           aria-hidden="false" 
           tabindex="0"
-	  referrerpolicy="no-referrer-when-downgrade"
-	  title="Carte interactive du Parc Monceau à Paris">
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Carte interactive du Parc Monceau à Paris">
         </iframe>
       </div>
 
@@ -294,26 +305,30 @@
       <div class="col-lg-6">
         <form class="needs-validation" novalidate id="contactValidation">
           <div class="form-group">
-            <label for="nom">Prénom Nom</label>
-            <input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+            <label for="contact-nom">Prénom Nom</label>
+            <input class="form-control" required type="text" name="nom" id="contact-nom" placeholder="Jean Dupond" />
             <div class="invalid-tooltip">Merci de renseigner vos prénom et nom.</div>
           </div>
+
           <div class="form-group">
-            <label for="mail">E-mail</label>
-            <input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+            <label for="contact-mail">E-mail</label>
+            <input class="form-control" required type="email" name="mail" id="contact-mail" placeholder="jeandupond@monmail.fr" />
             <div class="invalid-tooltip">Merci de renseigner votre e-mail.</div>
           </div>
+
           <div class="form-group">
-            <label for="sujet">Sujet</label>
-            <input class="form-control" required type="text" name="sujet" id="sujet" placeholder="Sujet" />
+            <label for="contact-sujet">Sujet</label>
+            <input class="form-control" required type="text" name="sujet" id="contact-sujet" placeholder="Sujet" />
             <div class="invalid-tooltip">Merci de renseigner le sujet.</div>
           </div>
+
           <div class="form-group">
-            <label for="message">Votre message</label>
-            <textarea class="form-control" required name="message" id="message" rows="5" placeholder="Composez votre texte !"></textarea>
+            <label for="contact-message">Votre message</label>
+            <textarea class="form-control" required name="message" id="contact-message" rows="5" placeholder="Composez votre texte !"></textarea>
             <div class="invalid-tooltip">Merci de rédiger votre message.</div>
           </div>
-          <button type="submit" class="btn btn-custom">Envoyer</button>
+
+          <button type="submit" class="btn btn-custom" aria-label="Envoyer le message de contact">Envoyer</button>
         </form>
       </div>
     </div>
